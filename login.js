@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     if(localStorage.getItem("username") == 'kirito') {
 
-        window.location.replace(`${window.location.origin}/order.html`);
+        window.location.replace(`${window.location.origin}/Kafene/order.html`);
     }
 
     $('#login').on('click', function () {
@@ -17,7 +17,7 @@ $(document).ready(function () {
 
             localStorage.setItem("username", "kirito");
             alert('Login Successfully!!!');
-            window.location.replace(`${window.location.origin}/order.html`);
+            window.location.replace(`${window.location.origin}/Kafene/order.html`);
         } else if(userName == '' && passWord == '') {
 
             alert('Please enter Username and Password!!!');
