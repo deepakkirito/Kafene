@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    background-color: rgba(230, 254, 237, 0.667);
+
+}
+
+/* <============================Navbar Start==============================> */
+
+nav{
+    width: 100%;
+    /* background-color: blueviolet; */
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.461);
+    background-color: rgba(231, 234, 232, 0.587);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.logo img{
+    width: 26px;
+    margin: 10px 20px 10px 60px;
+}
+
+/* <============================Navbar End================================> */
+
+/* <============================Login Page Start==============================> */
+
+.login_page{
+    background-color: white;
+    width: 500px;
+    height: 310px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightgrey;
+}
+
+.login_page h1{
+    padding: 25px ;
+    padding-left: 40px;
+    font-weight: lighter;
+}
+
+.login_page input{
+    display: inline-block;
+    width: 420px;
+    border: none;
+    border-bottom: 2px solid rgb(66, 66, 66);
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    opacity: 0.7;
+}
+
+button{
+    /* display: none; */
+    width: 400px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 1px solid greenyellow;
+    background-color: rgb(25, 212, 25);
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 2px rgb(88, 209, 40);
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px rgb(88, 209, 40);
+
+}
+button:active{
+    box-shadow: 0px 0px 5px rgb(88, 209, 40);
+}
+
+.login_page input:focus{
+    outline: none;
+}
+
+.next_page{
+    color: white;
+    text-decoration: none;
+}
+
+/* <============================Login Page End================================> */
